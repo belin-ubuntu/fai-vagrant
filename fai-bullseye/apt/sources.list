@@ -1,0 +1,12 @@
+deb http://ftp.hu.debian.org/debian/ bullseye main contrib non-free
+deb-src http://ftp.hu.debian.org/debian/ bullseye main contrib non-free
+deb http://security.debian.org/ bullseye-security main contrib non-free
+deb-src http://security.debian.org/ bullseye-security main contrib non-free
+deb http://ftp.hu.debian.org/debian/ bullseye-updates main contrib non-free
+deb-src http://ftp.hu.debian.org/debian/ bullseye-updates main contrib non-free
+deb http://ftp.hu.debian.org/debian/ bullseye-backports main contrib non-free
+deb-src http://ftp.hu.debian.org/debian/ bullseye-backports main contrib non-free
+deb http://belin-ubuntu.github.io/belin/debian bullseye main
+deb-src http://belin-ubuntu.github.io/belin/debian bullseye main
+deb http://ppa.launchpad.net/belin/stable/ubuntu focal main
+deb-src http://ppa.launchpad.net/belin/stable/ubuntu focal main

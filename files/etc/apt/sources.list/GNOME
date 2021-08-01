@@ -1,0 +1,3 @@
+deb {%apt_cdn%}/debian {%release%} main contrib non-free
+deb {%security_cdn%}/debian-security {%secsuite%} main contrib non-free
+deb {%apt_cdn%}/debian {%release%}-updates main contrib non-free
