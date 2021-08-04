@@ -14,5 +14,5 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 chown -hR vagrant:vagrant /home/vagrant
 sed -i -e 's/Defaults.*requiretty/#&/' /etc/sudoers
 sed -i -e 's/\(UsePAM \)yes/\1 no/' /etc/ssh/sshd_config
-mkdir -p /var/run/sshd
+mkdir /var/run/sshd
 

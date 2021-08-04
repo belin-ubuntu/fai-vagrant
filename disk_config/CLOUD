@@ -5,6 +5,10 @@
 disk_config disk1 disklabel:gpt bootable:1 fstabkey:uuid align-at:1M
 
 primary /boot/efi 512M vfat rw
-primary  /      2G-300G      btrfs  ssd,noatime,subvol=@
-#/^btrfs (single) btrfs ssd,noatime,subvol=@/home
+primary  /      2G-300G      btrfs  ssd,noatime,compress-force=zstd:15,subvol=@
 primary swap 2-8G swap sw
+
+disk_config btrfs fstabkey:uuid 
+btrfs single /home disk1.2 ssd,noatime,compress-force=zstd:15,subvol=@home
+#/^btrfs (single) btrfs ssd,noatime,subvol=@/home
+#primary swap 2-8G swap sw

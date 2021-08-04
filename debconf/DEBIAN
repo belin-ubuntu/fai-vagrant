@@ -585,3 +585,7 @@ keyboard-configuration	console-setup/ask_detect	boolean	false
 firmware-ipw2x00	firmware-ipw2x00/license/accepted	boolean	true
 # Maximum size of a normalized HTML file to scan:
 clamav-daemon	clamav-daemon/MaxHTMLNoTags	string	2M
+console-data	console-data/keymap/qwerty/hungarian/variant	select	Standard
+console-data	console-data/keymap/qwertz/hungarian/variant	select	
+console-data	console-data/keymap/qwerty/hungarian/standard/keymap	select	Standard
+console-data	console-data/keymap/qwertz/hungarian/standard/keymap	select	
