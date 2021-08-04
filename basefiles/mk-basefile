@@ -40,7 +40,7 @@ EXCLUDE_BIONIC=udhcpc,dibbler-client,info
 EXCLUDE_FOCAL=udhcpc,dibbler-client,info
 
 # here you can add packages, that are needed very early
-INCLUDE_DEBIAN=
+INCLUDE_DEBIAN="apt,btrfs-progs,duperemove,debconf-utils,exfat-utils,cryptsetup,udisks2,openssl,ca-certificates,apt-transport-https,dirmngr,debconf-utils,apt-utils,dconf-cli,gdisk,dkms,dpkg-dev,kmod,auto-apt-proxy,squid-deb-proxy-client"
 
 
 setarch() {
