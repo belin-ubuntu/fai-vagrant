@@ -13,11 +13,15 @@ cryptsetup
 devscripts
 ubuntu-dev-tools
 blends-dev
+blends-common
+blends-tasks
+blends-doc
 libcdio-utils
 apt-cacher-ng
 mtd-utils
 qemu-user-static
 auto-apt-proxy
+squid-deb-proxy-client
 e2fsprogs
 parted
 btrfs-progs
@@ -59,3 +63,7 @@ zfs-dkms
 zfsutils-linux
 devscripts
 command-not-found
+nfs-common
+portmap
+devscript
+ssh

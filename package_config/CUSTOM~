@@ -8,6 +8,11 @@ eject
 procps
 rsync
 git
+dmsetup
+cryptsetup
+devscripts
+ubuntu-dev-tools
+blends-dev
 libcdio-utils
 apt-cacher-ng
 mtd-utils
