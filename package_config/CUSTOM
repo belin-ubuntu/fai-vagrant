@@ -2,6 +2,7 @@ PACKAGES install
 live-build
 live-config
 live-tools
+libguestfs-tools
 xorriso
 mtools
 eject

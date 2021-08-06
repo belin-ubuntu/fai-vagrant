@@ -45,9 +45,11 @@ grub-efi-arm64
 linux-image-arm64
 
 PACKAGES install GRUB_PC
+grub-pc
+grub-efi-amd64-bin
 
 PACKAGES install GRUB_EFI
 grub-efi
-
+grub-pc-bin
 PACKAGES install LVM
 lvm2
