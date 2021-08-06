@@ -29,7 +29,7 @@ fcopy -ir /root
 
 # use tmpfs for /tmp if not defined in disk_config
 if ! grep -Pq '\s/tmp\s' $target/etc/fstab; then
-    ainsl /etc/fstab "tmpfs     /tmp tmpfs     nodev,nosuid,size=50%,mode=1777   0    0"
+    ainsl /etc/fstab "tmpfs     /tmp tmpfs     nosuid,size=50%,mode=1777   0    0"
 fi
 chmod -c 1777 ${target}/tmp
 chown -c 0:0  ${target}/tmp

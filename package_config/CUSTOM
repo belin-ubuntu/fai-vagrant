@@ -67,3 +67,4 @@ nfs-common
 portmap
 devscript
 ssh
+zram-tools
