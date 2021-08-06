@@ -47,5 +47,5 @@ if [ -d /etc/fai ]; then
     fi
 fi
 fcopy -iv /etc/rc.local
-
+#fcopy -iv /etc/sudoers.d
 exit $error
