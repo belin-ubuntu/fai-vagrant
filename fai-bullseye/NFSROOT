@@ -49,19 +49,23 @@ PACKAGES install I386
 grub-pc
 efibootmgr
 linux-image-686-pae
-linux-image-generic
-linux-headers-generic
+
 
 PACKAGES install AMD64
-grub-efi
+grub-pc
 grub-efi-amd64-bin
 grub-pc-bin
 efibootmgr
-linux-image-generic
-linux-headers-generic
+linux-image-amd64
+linux-headers-amd64
 auto-apt-proxy
+squid-deb-proxy-client
 linux-image-amd64
 #linux-image-amd64/bullseye-backports # if you want to use a newer kernel
+zfs-initramfs
+zfs-dkms
+zfsutils-linux
+spl-dkms
 
 PACKAGES install-norec ARM64
 grub-efi-arm64
@@ -82,3 +86,14 @@ fdisk gpg
 PACKAGES install DEBIAN_11 DEBIAN_
 fdisk gpg
 ubuntu-dev-tools
+live-build
+live-config
+live-tools
+live-config-systemd
+squasfs-tools
+xorriso
+cdebootstrap
+debootstrap
+simple-cdd
+mtools
+xorriso
