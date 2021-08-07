@@ -64,7 +64,11 @@ zfsutils-linux
 devscripts
 command-not-found
 nfs-common
-portmap
-devscript
+rpcbind
+belin-archive-keyring
+devscripts
+gnupg
+gnupg-l10n
+dirmngr
 ssh
 zram-tools

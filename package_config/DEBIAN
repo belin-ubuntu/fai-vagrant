@@ -1,4 +1,6 @@
+
 PACKAGES install
+
 apt-transport-https # is only needed for stretch
 debconf-utils
 file
@@ -18,10 +20,11 @@ unattended-upgrades
 PACKAGES install NONFREE
 # you may want these non-free kernel drivers
 firmware-bnx2 firmware-bnx2x firmware-realtek
+firmware-linux-free
 firmware-linux-nonfree
 # a list of firmware for wifi/wireless
 atmel-firmware firmware-atheros firmware-brcm80211
-firmware-iwlwifi firmware-libertas firmware-ralink firmware-zd1211
+firmware-iwlwifi firmware-libertas firmware-misc-nonfree firmware-zd1211
 firmware-brcm80211 firmware-ti-connectivity
 firmware-netronome firmware-netxen firmware-realtek
 firmware-cavium
@@ -37,8 +40,6 @@ linux-image-amd64-
 
 PACKAGES install AMD64
 linux-image-amd64
-linux-image-generic
-linux-headers-generic
 linux-headers-amd64
 build-essential autoconf automake libtool gawk alien fakeroot dkms libblkid-dev uuid-dev libudev-dev libssl-dev zlib1g-dev libaio-dev libattr1-dev libelf-dev python3 python3-dev python3-setuptools python3-cffi libffi-dev python3-packaging
 spl-dkms snapper

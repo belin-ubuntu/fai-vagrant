@@ -7,6 +7,15 @@ else
 fi
 
 echo force-unsafe-io > $target/etc/dpkg/dpkg.cfg.d/unsafe-io
+kernel=`uname -r`
+echo Kernel: $kernel
+arch=`dpkg-architecture -q DEB_BUILD_ARCH_CPU`
+echo Architektúra: $arch
+common=`uname -r |sed 's/amd64/common/'`
+echo A common header: $common
+mkdir -p $target/usr/src/linux-headers$common/include/linux
+mkdir -p $target/usr/src/linux-headers-$kernel/include
+ln -sf /usr/src/linux-headers-$common/include/linux/ $target/usr/src/linux-headers-$kernel/include/linux
 
 # you may want to add i386 arch to amd64 hosts
 # if ifclass AMD64; then

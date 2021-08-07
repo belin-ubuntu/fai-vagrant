@@ -42,4 +42,4 @@ task-english
 task-hungarian
 task-laptop
 task-ssh-server
-apt-listchanges bash-completion bind9-host bzip2 dbus debian-faq default-logind   file gettext-base groff-base krb5-locales libc-l10n liblockfile-bin libnss-systemd live-task-base locales lsof man-db manpages mime-support ncurses-term netcat-openbsd openssh-client pciutils perl python3 reportbug, telnet traceroute ucf usbutils wamerican wget xz-utils
+apt-listchanges bash-completion bind9-host bzip2 dbus debian-faq libpam-systemd file gettext-base groff-base krb5-locales libc-l10n liblockfile-bin libnss-systemd live-task-base locales lsof man-db manpages mime-support ncurses-term netcat-openbsd openssh-client pciutils perl python3 reportbug telnet traceroute ucf usbutils wamerican wget xz-utils

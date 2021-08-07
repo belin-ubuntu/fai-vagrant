@@ -21,8 +21,22 @@ git # git consumes a lot of disk space on the FAI CD
 
 PACKAGES install
 # dracut replaces live-boot and initramfs-tools
-live-boot live-config initramfs-tools
+live-boot live-config initramfs-tools live-tools
 mdadm
+dracut-
+dracut-config-generic-
+dracut-config-rescue-
+dracut-core-
+dracut-network-
+dracut-live-
+dracut-squash-
+zfs-dracut-
+dmsetup
+kpartx
+isc-dhcp-client
+iputils-arping
+pkg-config
+squashfs-tools
 systemd-sysv
 curl lftp
 less
@@ -97,3 +111,4 @@ debootstrap
 simple-cdd
 mtools
 xorriso
+apt-cacher-ng
