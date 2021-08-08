@@ -112,3 +112,5 @@ simple-cdd
 mtools
 xorriso
 apt-cacher-ng
+exfatprogs
+belin-archive-keyring
