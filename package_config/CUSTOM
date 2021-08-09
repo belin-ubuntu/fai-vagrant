@@ -72,3 +72,11 @@ gnupg-l10n
 dirmngr
 ssh
 zram-tools
+debconf-i18n
+dl10n
+e2fsprogs-l10n
+gnupg-l10n
+libgphoto2-l10n
+libgpg-error-l10n
+menu-l10n
+libosinfo-l10n
