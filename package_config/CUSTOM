@@ -34,7 +34,7 @@ console-data
 debconf-utils
 efibootmgr
 eject
-exfatprogs
+exfat-utils
 fbset
 hdparm
 hwinfo
